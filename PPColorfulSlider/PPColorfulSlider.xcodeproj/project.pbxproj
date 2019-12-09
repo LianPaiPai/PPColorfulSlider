@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455314A2239DCB8200D81379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314A1239DCB8200D81379 /* AppDelegate.m */; };
+		455314A5239DCB8200D81379 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314A4239DCB8200D81379 /* SceneDelegate.m */; };
+		455314A8239DCB8200D81379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314A7239DCB8200D81379 /* ViewController.m */; };
+		455314AD239DCB8300D81379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455314AC239DCB8300D81379 /* Assets.xcassets */; };
+		455314B0239DCB8300D81379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455314AE239DCB8300D81379 /* LaunchScreen.storyboard */; };
+		455314B3239DCB8300D81379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314B2239DCB8300D81379 /* main.m */; };
+		455314BD239DCB8300D81379 /* PPColorfulSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314BC239DCB8300D81379 /* PPColorfulSliderTests.m */; };
+		455314C8239DCB8300D81379 /* PPColorfulSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314C7239DCB8300D81379 /* PPColorfulSliderUITests.m */; };
+		455314D9239DCCDE00D81379 /* PPColorfulSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314D8239DCCDE00D81379 /* PPColorfulSlider.m */; };
+		455314DC239DCFC700D81379 /* PPSliderDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 455314DB239DCFC700D81379 /* PPSliderDemoView.m */; };
+		E932B5F34D4FC0816122D347 /* libPods-PPColorfulSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D92260D9D22AA63E0E14433 /* libPods-PPColorfulSlider.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		455314B9239DCB8300D81379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45531495239DCB8200D81379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4553149C239DCB8200D81379;
+			remoteInfo = PPColorfulSlider;
+		};
+		455314C4239DCB8300D81379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45531495239DCB8200D81379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4553149C239DCB8200D81379;
+			remoteInfo = PPColorfulSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D92260D9D22AA63E0E14433 /* libPods-PPColorfulSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PPColorfulSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4553149D239DCB8200D81379 /* PPColorfulSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPColorfulSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455314A0239DCB8200D81379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		455314A1239DCB8200D81379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		455314A3239DCB8200D81379 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		455314A4239DCB8200D81379 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		455314A6239DCB8200D81379 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		455314A7239DCB8200D81379 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		455314AC239DCB8300D81379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455314AF239DCB8300D81379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455314B1239DCB8300D81379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455314B2239DCB8300D81379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455314B8239DCB8300D81379 /* PPColorfulSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPColorfulSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455314BC239DCB8300D81379 /* PPColorfulSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPColorfulSliderTests.m; sourceTree = "<group>"; };
+		455314BE239DCB8300D81379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455314C3239DCB8300D81379 /* PPColorfulSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPColorfulSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455314C7239DCB8300D81379 /* PPColorfulSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPColorfulSliderUITests.m; sourceTree = "<group>"; };
+		455314C9239DCB8300D81379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455314D7239DCCDE00D81379 /* PPColorfulSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPColorfulSlider.h; sourceTree = "<group>"; };
+		455314D8239DCCDE00D81379 /* PPColorfulSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPColorfulSlider.m; sourceTree = "<group>"; };
+		455314DA239DCFC700D81379 /* PPSliderDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSliderDemoView.h; sourceTree = "<group>"; };
+		455314DB239DCFC700D81379 /* PPSliderDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSliderDemoView.m; sourceTree = "<group>"; };
+		C31753EA3B9756E53532DA96 /* Pods-PPColorfulSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPColorfulSlider.release.xcconfig"; path = "Target Support Files/Pods-PPColorfulSlider/Pods-PPColorfulSlider.release.xcconfig"; sourceTree = "<group>"; };
+		E3A8898C5AE147728D5E9360 /* Pods-PPColorfulSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPColorfulSlider.debug.xcconfig"; path = "Target Support Files/Pods-PPColorfulSlider/Pods-PPColorfulSlider.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4553149A239DCB8200D81379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E932B5F34D4FC0816122D347 /* libPods-PPColorfulSlider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314B5239DCB8300D81379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314C0239DCB8300D81379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6F50205F610D8BE8766F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D92260D9D22AA63E0E14433 /* libPods-PPColorfulSlider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45531494239DCB8200D81379 = {
+			isa = PBXGroup;
+			children = (
+				4553149F239DCB8200D81379 /* PPColorfulSlider */,
+				455314BB239DCB8300D81379 /* PPColorfulSliderTests */,
+				455314C6239DCB8300D81379 /* PPColorfulSliderUITests */,
+				4553149E239DCB8200D81379 /* Products */,
+				E48C54CBAECF198221025645 /* Pods */,
+				1F6F50205F610D8BE8766F75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4553149E239DCB8200D81379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4553149D239DCB8200D81379 /* PPColorfulSlider.app */,
+				455314B8239DCB8300D81379 /* PPColorfulSliderTests.xctest */,
+				455314C3239DCB8300D81379 /* PPColorfulSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4553149F239DCB8200D81379 /* PPColorfulSlider */ = {
+			isa = PBXGroup;
+			children = (
+				455314D6239DCCB500D81379 /* Demo */,
+				455314D5239DCCB500D81379 /* Slider */,
+				455314A0239DCB8200D81379 /* AppDelegate.h */,
+				455314A1239DCB8200D81379 /* AppDelegate.m */,
+				455314A3239DCB8200D81379 /* SceneDelegate.h */,
+				455314A4239DCB8200D81379 /* SceneDelegate.m */,
+				455314AC239DCB8300D81379 /* Assets.xcassets */,
+				455314AE239DCB8300D81379 /* LaunchScreen.storyboard */,
+				455314B1239DCB8300D81379 /* Info.plist */,
+				455314B2239DCB8300D81379 /* main.m */,
+			);
+			path = PPColorfulSlider;
+			sourceTree = "<group>";
+		};
+		455314BB239DCB8300D81379 /* PPColorfulSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				455314BC239DCB8300D81379 /* PPColorfulSliderTests.m */,
+				455314BE239DCB8300D81379 /* Info.plist */,
+			);
+			path = PPColorfulSliderTests;
+			sourceTree = "<group>";
+		};
+		455314C6239DCB8300D81379 /* PPColorfulSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				455314C7239DCB8300D81379 /* PPColorfulSliderUITests.m */,
+				455314C9239DCB8300D81379 /* Info.plist */,
+			);
+			path = PPColorfulSliderUITests;
+			sourceTree = "<group>";
+		};
+		455314D5239DCCB500D81379 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				455314DA239DCFC700D81379 /* PPSliderDemoView.h */,
+				455314DB239DCFC700D81379 /* PPSliderDemoView.m */,
+				455314D7239DCCDE00D81379 /* PPColorfulSlider.h */,
+				455314D8239DCCDE00D81379 /* PPColorfulSlider.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		455314D6239DCCB500D81379 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				455314A6239DCB8200D81379 /* ViewController.h */,
+				455314A7239DCB8200D81379 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E48C54CBAECF198221025645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8898C5AE147728D5E9360 /* Pods-PPColorfulSlider.debug.xcconfig */,
+				C31753EA3B9756E53532DA96 /* Pods-PPColorfulSlider.release.xcconfig */,
+			);
+			name = Pods;
+			path = PPColorfulSlider/Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4553149C239DCB8200D81379 /* PPColorfulSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455314CC239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSlider" */;
+			buildPhases = (
+				89346D0B0F65A13D139AF523 /* [CP] Check Pods Manifest.lock */,
+				45531499239DCB8200D81379 /* Sources */,
+				4553149A239DCB8200D81379 /* Frameworks */,
+				4553149B239DCB8200D81379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPColorfulSlider;
+			productName = PPColorfulSlider;
+			productReference = 4553149D239DCB8200D81379 /* PPColorfulSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		455314B7239DCB8300D81379 /* PPColorfulSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455314CF239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSliderTests" */;
+			buildPhases = (
+				455314B4239DCB8300D81379 /* Sources */,
+				455314B5239DCB8300D81379 /* Frameworks */,
+				455314B6239DCB8300D81379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455314BA239DCB8300D81379 /* PBXTargetDependency */,
+			);
+			name = PPColorfulSliderTests;
+			productName = PPColorfulSliderTests;
+			productReference = 455314B8239DCB8300D81379 /* PPColorfulSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		455314C2239DCB8300D81379 /* PPColorfulSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455314D2239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSliderUITests" */;
+			buildPhases = (
+				455314BF239DCB8300D81379 /* Sources */,
+				455314C0239DCB8300D81379 /* Frameworks */,
+				455314C1239DCB8300D81379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455314C5239DCB8300D81379 /* PBXTargetDependency */,
+			);
+			name = PPColorfulSliderUITests;
+			productName = PPColorfulSliderUITests;
+			productReference = 455314C3239DCB8300D81379 /* PPColorfulSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45531495239DCB8200D81379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "PaiPai Lian";
+				TargetAttributes = {
+					4553149C239DCB8200D81379 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					455314B7239DCB8300D81379 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 4553149C239DCB8200D81379;
+					};
+					455314C2239DCB8300D81379 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 4553149C239DCB8200D81379;
+					};
+				};
+			};
+			buildConfigurationList = 45531498239DCB8200D81379 /* Build configuration list for PBXProject "PPColorfulSlider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45531494239DCB8200D81379;
+			productRefGroup = 4553149E239DCB8200D81379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4553149C239DCB8200D81379 /* PPColorfulSlider */,
+				455314B7239DCB8300D81379 /* PPColorfulSliderTests */,
+				455314C2239DCB8300D81379 /* PPColorfulSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4553149B239DCB8200D81379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455314B0239DCB8300D81379 /* LaunchScreen.storyboard in Resources */,
+				455314AD239DCB8300D81379 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314B6239DCB8300D81379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314C1239DCB8300D81379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89346D0B0F65A13D139AF523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPColorfulSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45531499239DCB8200D81379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455314A8239DCB8200D81379 /* ViewController.m in Sources */,
+				455314A2239DCB8200D81379 /* AppDelegate.m in Sources */,
+				455314D9239DCCDE00D81379 /* PPColorfulSlider.m in Sources */,
+				455314B3239DCB8300D81379 /* main.m in Sources */,
+				455314DC239DCFC700D81379 /* PPSliderDemoView.m in Sources */,
+				455314A5239DCB8200D81379 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314B4239DCB8300D81379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455314BD239DCB8300D81379 /* PPColorfulSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455314BF239DCB8300D81379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455314C8239DCB8300D81379 /* PPColorfulSliderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		455314BA239DCB8300D81379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4553149C239DCB8200D81379 /* PPColorfulSlider */;
+			targetProxy = 455314B9239DCB8300D81379 /* PBXContainerItemProxy */;
+		};
+		455314C5239DCB8300D81379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4553149C239DCB8200D81379 /* PPColorfulSlider */;
+			targetProxy = 455314C4239DCB8300D81379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		455314AE239DCB8300D81379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455314AF239DCB8300D81379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455314CA239DCB8300D81379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		455314CB239DCB8300D81379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455314CD239DCB8300D81379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A8898C5AE147728D5E9360 /* Pods-PPColorfulSlider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455314CE239DCB8300D81379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31753EA3B9756E53532DA96 /* Pods-PPColorfulSlider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		455314D0239DCB8300D81379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSliderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPColorfulSlider.app/PPColorfulSlider";
+			};
+			name = Debug;
+		};
+		455314D1239DCB8300D81379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSliderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPColorfulSlider.app/PPColorfulSlider";
+			};
+			name = Release;
+		};
+		455314D3239DCB8300D81379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPColorfulSlider;
+			};
+			name = Debug;
+		};
+		455314D4239DCB8300D81379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T29LS8A66H;
+				INFOPLIST_FILE = PPColorfulSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PaiPai-Lian.PPColorfulSliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPColorfulSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45531498239DCB8200D81379 /* Build configuration list for PBXProject "PPColorfulSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455314CA239DCB8300D81379 /* Debug */,
+				455314CB239DCB8300D81379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455314CC239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455314CD239DCB8300D81379 /* Debug */,
+				455314CE239DCB8300D81379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455314CF239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455314D0239DCB8300D81379 /* Debug */,
+				455314D1239DCB8300D81379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455314D2239DCB8300D81379 /* Build configuration list for PBXNativeTarget "PPColorfulSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455314D3239DCB8300D81379 /* Debug */,
+				455314D4239DCB8300D81379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45531495239DCB8200D81379 /* Project object */;
+}
